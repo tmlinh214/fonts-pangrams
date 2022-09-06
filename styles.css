@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 20px;
+    padding: 15px 0;
+}
+.container{
+    width: 100%;
+    height:700px;
+    padding: 50px 0;
+}
+.text-container{
+    width:600px;
+    margin: 100px auto;
+    text-align: center;
+}
+.intro{
+    margin-top: 0;
+}
+.intro a{
+    color: #fff;
+}
+#intro-text{
+    font-family: 'Satisfy';
+    color: #fff;
+    text-align: center;
+}
+#intro-text h2{
+    text-transform: none;
+    font-size: 5rem;
+    margin-bottom: -40px;
+}
+#intro-text p{
+    font-size: 1.6rem;
+}
+#intro-description{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: monospace;
+}
+#intro-description p{
+    font-size: 0.8rem;
+}
+#montserrat{
+    font-family: 'Montserrat',sans-serif;
+}
+#playfair{
+    font-family: 'Playfair Display';
+}
+#dancing-script{
+    font-family: 'Dancing Script';
+}
+#lobster{
+    font-family: 'Lobster';
+}
+#pacifico{
+    font-family: 'Pacifico';
+}
+#indie-flower{
+    font-family: 'Indie Flower';
+}
+#exo{
+    font-family: 'Exo';
+}
+#kalam{
+    font-family: 'Kalam';
+}
+#didact-gothic{
+    font-family: 'Didact Gothic';
+}
+#amiri{
+    font-family: 'Amiri';
+}
+#great-vibes{
+    font-family: 'Great Vibes';
+}
+#oooh-baby{
+    font-family: 'Oooh Baby';
+}
+#antic-slab{
+    font-family: 'Antic Slab';
+}
+#spectral{
+    font-family: 'Spectral';
+}
+#sacramento{
+    font-family: 'Sacramento';
+}
+#chivo{
+    font-family: 'Chivo';
+}
+#roboto{
+    font-family: 'Roboto';
+}
+#oswald{
+    font-family: 'Oswald';
+}
+#noto-sans{
+    font-family: 'Noto Sans';
+}
+#josefin-sans{
+    font-family: 'Josefin Sans';
+}
+#caveat{
+    font-family: 'Caveat';
+}
+.text-container h2{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.text-container p{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    line-height: 1.2;
+}
+.intro{
+    background-color: #000;
+}
+.text1{
+    background-color: #330000;
+    color: #fff;
+}
+.text2{
+    background-color: #006666;
+}
+.text3{
+    background-color: #FF8000;
+}
+.text4{
+    background-color: #4d88aa;
+    color: #fff;
+}
+.text5{
+    background-color: #94323d;
+}
+
+.photo1{
+    background-image: url("./images/photo1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.photo2{
+    background-image: url("./images/photo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.photo3{
+    background-image: url("./images/photo3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff
+}
+.photo4{
+    background-image: url("./images/photo4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.photo5{
+    background-image: url("./images/photo5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.photo6{
+    background-image: url("./images/photo6.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.photo7{
+    background-image: url("./images/photo7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff
+}
+.photo8{
+    background-image: url("./images/photo8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff
+}
+.photo9{
+    background-image: url("./images/photo9.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.photo10{
+    background-image: url("./images/photo10.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.photo11{
+    background-image: url("./images/photo11.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff
+}
+.text-top{
+    text-align: right;
+    margin-right: 10%;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+@media (max-width:800px){
+    .text-container{
+        max-width: 90%;
+        margin: 100px auto 0;
+        word-wrap: normal;
+    }
+    .text-container h2{
+        font-size: 3.5rem;
+        text-transform: uppercase;
+    }
+    .text-container p{
+        font-size: 1.5rem;
+        padding-top: 20px;
+        line-height: 1.2;
+    }
+}
+@media (max-width:600px){
+    .text-container{
+        max-width: 90%;
+        margin: 100px auto;
+    }
+    .text-container h2{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    .text-container p{
+        font-size: 1.2rem;
+        padding-top: 20px;
+        line-height: 1.2;
+    }
+}
+.copyright{
+    margin-top: 0;
+    margin-left: 5em;
+}
